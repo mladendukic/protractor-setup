@@ -1,11 +1,12 @@
 let LoginPage = function() {
 
-    this.popupTitle = $('.popup-title');
-    this.backButton = $('.popup-head__back-button');
+    this.emailField = $('#Email');
+    this.passwordField = $('#Password');
+    this.loginButton = $('.button-1.login-button');
     this.logIn = (username, password) => {
-      this.usernameField.sendKeys(username);
+      this.emailField.sendKeys(username);
       this.passwordField.sendKeys(password);
-      this.formLoginButton.click();
+      this.loginButton.click();
     };
     
   };

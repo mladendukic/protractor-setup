@@ -5,7 +5,7 @@ exports.config = {
   seleniumAddress: 'http://localhost:4444/wd/hub',
   suites: {
     specs: [
-      '../specs/expected-conditions.js'
+      '../specs/login.js'
     ]
   },
 

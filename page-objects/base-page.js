@@ -30,6 +30,7 @@ let BasePage = function() {
   this.ifTextIsDisplayed = (elm, phrase) => {
     browser.wait(EC.textToBePresentInElement((elm), phrase), 15000);
   };
+
 };
 
 module.exports = BasePage;
